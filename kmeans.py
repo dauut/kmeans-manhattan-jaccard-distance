@@ -1,16 +1,15 @@
 import numpy as np
-import random
 import matplotlib.pyplot as plt
 import os
 import math
 
-DECIMAL_POINT = 3
-MAX_ITERATION = 1
-CLUSTER_FOLDER_NAME = "kmeans"
-CLUSTER_FILE_NAME = "clusters"
-DATA_PATH = "polblogs.txt"
-DATA_LABELS_PATH = "polblogs-labels.txt"
-SIMILARITY_MATRIX = "blogsSimilarityMatrix.txt"
+DECIMAL_POINT = 3  # float number sensitivities
+MAX_ITERATION = 500  # iteration number of cluster calculation
+CLUSTER_FOLDER_NAME = "kmeans"  # clustered files folder
+CLUSTER_FILE_NAME = "clusters"  # file names
+DATA_PATH = "polblogs.txt"     # data file
+DATA_LABELS_PATH = "polblogs-labels.txt"       # label file
+SIMILARITY_MATRIX = "blogsSimilarityMatrix.txt"  # similarity matrix name
 
 
 # find manhattan distance similarities
@@ -184,7 +183,11 @@ def plot_kmeans():
             # print(accuracy)
     # print(accuracy_list.index(max(accuracy_list)))
 
-    cluster_labels1 = np.int_(np.loadtxt("labels/labels1.txt"))
+    best_accuracy_file = files[accuracy_list.index(max(accuracy_list))]
+    folder_path = CLUSTER_FOLDER_NAME
+    folder_path += "/"
+    folder_path += best_accuracy_file
+    cluster_labels1 = np.int_(np.loadtxt(folder_path))
     list_of_symbols = ["o", "x", "v", "^", "<", "H", "8", "|", "_", "P"]
 
     # plot the best one
