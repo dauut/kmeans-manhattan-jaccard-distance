@@ -2,7 +2,7 @@
 
 An undirected graph data used for this project. It represents connected blogs with labeled two classes. In this project, K - Means used for clustering this data and calculation has been done for [F-Measure](https://en.wikipedia.org/wiki/F1_score) and [Purity](https://nlp.stanford.edu/IR-book/html/htmledition/evaluation-of-clustering-1.html). 
 
-1. The data pre-processed for producing connection matrix and then similarity matrix producing with similarity functions. In this particular project, the [Manhattan Distance](https://en.wikipedia.org/wiki/Taxicab_geometry) has been used for similarities. 
+1. The data pre-processed for producing connection matrix and then similarity matrix produced with similarity functions. In this particular project, the [Manhattan Distance](https://en.wikipedia.org/wiki/Taxicab_geometry) has been used for similarities. 
 
 *Example Connection Matrix*
 
