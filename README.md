@@ -24,6 +24,16 @@ An undirected graph data used for this project. It represents connected blogs wi
 
 
 2. __K__ number random centroids with __N__ random attributes (i.e., the similarity with respect to each node) added. 
+
+ | 0        | 1           | 2  |3           | 4  |
+| ------------- |:-------------:| -----:|:-------------:| -----:|
+| **1**     | 1.000   | 0.205 | 0.000 | 0.000 |
+| **2**     | 0.205   | 1.000 | 0.333 | 0.222 |
+| **3**     | 0.000   | 0.333 | 1.000 | 0.721 |
+| **4**     | 0.000   | 0.222 | 0.721 | 1.000 |
+| **`C1`**     | ***0.210***   | ***0.662*** | ***0.123*** | ***0.182*** |
+| **`C2`**     | ***0.320***   | ***0.862*** | ***0.482*** | ***0.281*** |
+
 3. K-Means performed on the similarity matrix
   - Which centroid each of the __N__ nodes is closest to found (distance each node with respect to each centroid)
   - Centroids updated after each clustering (average of each attribute --rows-- for the cluster in the matrix calculated)
