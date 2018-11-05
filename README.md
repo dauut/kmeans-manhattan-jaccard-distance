@@ -37,3 +37,7 @@ Graph-2: N x N
 ![Clustering - 2](https://github.com/dauut/kmeans-manhattan-jaccard-distance/blob/master/graphs/Clustering_NxN.png "N x N")
 
 ---
+
+##### Community Detection with [Pajek](http://vlado.fmf.uni-lj.si/pub/networks/pajek/) Tool
+
+![Communities ](https://github.com/dauut/kmeans-manhattan-jaccard-distance/blob/master/graphs/Louvain%20Communities.jpg "Community")
