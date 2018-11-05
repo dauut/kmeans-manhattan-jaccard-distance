@@ -4,7 +4,6 @@ An undirected graph data used for this project. It represents connected blogs wi
 
 1. The data pre-processed for producing connection matrix and then similarity matrix producing with similarity functions. In this particular project, the [Manhattan Distance](https://en.wikipedia.org/wiki/Taxicab_geometry) has been used for similarities. 
 
----
 *Example Connection Matrix*
 
  | 0        | 1           | 2  |3           | 4  |
@@ -23,7 +22,6 @@ An undirected graph data used for this project. It represents connected blogs wi
 | **3**     | 0.000   | 0.333 | 1.000 | 0.721 |
 | **4**     | 0.000   | 0.222 | 0.721 | 1.000 |
 
----
 
 2. __K__ number random centroids with __N__ random attributes (i.e., the similarity with respect to each node) added. 
 3. K-Means performed on the similarity matrix
