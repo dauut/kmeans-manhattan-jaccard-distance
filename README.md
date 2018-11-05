@@ -30,10 +30,10 @@ An undirected graph data used for this project. It represents connected blogs wi
 4. [Precision, Recall](https://en.wikipedia.org/wiki/Precision_and_recall) and Purity (with Entropy) calculated. 
 
 ---
-Graph-1: Label x N
+Cluster Graph-1: N x Classes
 ![Clustering1 ](https://github.com/dauut/kmeans-manhattan-jaccard-distance/blob/master/graphs/Clustering_LabelxN.png "Label x N")
 
-Graph-2: N x N 
+Cluster Graph-2: N x N 
 ![Clustering - 2](https://github.com/dauut/kmeans-manhattan-jaccard-distance/blob/master/graphs/Clustering_NxN.png "N x N")
 
 ---
