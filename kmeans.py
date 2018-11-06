@@ -264,6 +264,7 @@ def f_measure(cluster):
     print("False negative counts = ", fn)
     print("Precision = ", precision)
     print("Recall = ", recall)
+    print("F-Measure = ", 2 * (precision * recall) / (precision + recall))
     entropy = purity((tp+fp)/len(polblogs_labels), (tn+fn)/len(polblogs_labels))
     print("Purity = ", entropy)
 
